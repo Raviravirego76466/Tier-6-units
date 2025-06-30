@@ -1,0 +1,27 @@
+"type: UnitAssembler
+"name: Toxic Assembly Bay
+description: Creates Leg units using payloads. Requires power.
+size: 10
+category: units
+research: toxopid
+requirements: [
+  /100
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: 
+    requirements: [
+      copper-wall/10
+      duo/5
+      toxopid/2
+    ]
+    time: 720
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 13
+researchCostMultiplier: 0.5
