@@ -1,0 +1,30 @@
+type: Constructor
+name: Copper Component Assembler
+description: 
+''' 
+  Crafts basic components used for unit assembly. Requires power and water. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Duo
+    - Copper Wall
+size: 3
+category: units
+requirements: [
+  copper/120
+] 
+hasPower: true
+consumes: {
+  power: 0.75
+  liquid: water/0.05
+}
+buildSpeed: 1
+filter: [
+  copper-wall, 
+  duo
+]
+research: dagger
+squareSprite: false
+conductivePower: true
+maxBlockSize: 3
+researchCostMultiplier: 0.25
