@@ -41,12 +41,6 @@
   "visualElevation": 0.7,
   "allowLegStep": true,
   "hovering": true,
-  "immunities": [
-    "burning",
-    "sapped",
-    "slow",
-    "melting"
-  ],
   "weapons": [
     {
       "name": "toxicity-energy-nuke",
