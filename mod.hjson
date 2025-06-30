@@ -3,6 +3,6 @@ displayName: "Tier 6"
 author: Raviravirego
 description: ""
 version: "1.0"
-minGameVersion: "149"
+minGameVersion: "146"
 dependencies: [ ]
 hidden: false
