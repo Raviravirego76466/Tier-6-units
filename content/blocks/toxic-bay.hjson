@@ -5,7 +5,13 @@ size: 10
 category: units
 research: toxopid
 requirements: [
-  /100
+      graphite/1220
+      surge-alloy/1000
+      plastanium/940
+      phase-fabric/850
+      copper/1240
+      lead/1240
+      silicon/1300
 ]
 plans: [
   {
