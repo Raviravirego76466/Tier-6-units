@@ -57,8 +57,6 @@
       "rotate": false,
       "shootY": 27,
       "cooldownTime": 660,
-      "shootStatus": "unmoving",
-      "shootStatusDuration": 125,
       "shoot": {
         "firstShotDelay": 120
       },
@@ -69,7 +67,6 @@
         "type": "BasicBulletType",
         "sprite": "circle-bullet",
         "chargeSound": "lasercharge",
-        "status": "exogenesis-nuclear-toxicity",
         "statusDuration": 300,
         "lightRadius": 50,
         "lightColor": "BF92F9FF",
@@ -265,8 +262,7 @@
       "shootSound": "none",
       "bullet": {
         "type": "LiquidBulletType",
-        "liquid": "acid",
-        "status": "exogenesis-acidic",
+        "liquid": "water",
         "lifetime": 50,
         "puddleSize": 8,
         "orbSize": 4.5,
