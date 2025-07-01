@@ -16,7 +16,7 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: 
+    unit: toxicity
     requirements: [
       copper-wall/10
       duo/5
