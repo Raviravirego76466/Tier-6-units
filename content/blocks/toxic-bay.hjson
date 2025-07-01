@@ -1,5 +1,5 @@
-"type: UnitAssembler
-"name: Toxic Assembly Bay
+type: UnitAssembler
+name: Toxic Assembly Bay
 description: Creates Leg units using payloads. Requires power.
 size: 10
 category: units
