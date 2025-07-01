@@ -29,5 +29,5 @@ squareSprite: false
 consumes: {
   power: 2
 }
-areaSize: 13
+areaSize: 23
 researchCostMultiplier: 0.5
